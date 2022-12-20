@@ -1,0 +1,35 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.search-input-os {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-input-os input {
+  border: 1px solid #ababab;
+  border-radius: 4px;
+  box-shadow: 2px 7px 15px rgb(0 0 0 / 2%);
+  font-size: 16px;
+  height: 36px;
+  width: 440px;
+  padding: 0 1rem;
+}
+
+.app-os {
+  padding: 2rem 4rem;
+}
